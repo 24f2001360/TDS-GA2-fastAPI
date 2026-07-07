@@ -4,6 +4,7 @@ from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException
+import jwt
 from jwt import InvalidTokenError
 
 EMAIL = "24f2001360@ds.study.iitm.ac.in"
